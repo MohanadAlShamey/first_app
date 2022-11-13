@@ -78,7 +78,7 @@ void main(List<String> arguments) {
   print('End');*/
   // import 'dart:convert';
   // import 'dart:io';
-  print("Enter Number One");
+  /* print("Enter Number One");
   String? input1 = stdin.readLineSync(encoding: utf8);
   int? num1 = int.tryParse("$input1") ?? 0;
   print("Enter Operator");
@@ -86,9 +86,99 @@ void main(List<String> arguments) {
 
   print("Enter Number Tow");
   String? input2 = stdin.readLineSync(encoding: utf8);
-  int? num2 = int.tryParse("$input2") ?? 0;
-  if (op == '+') {
+  int? num2 = int.tryParse("$input2") ?? 0;*/
+  /*if (op == '+') {
     print("${num1 + num2}");
+  }else if (op == '-') {
+    print("${num1 + num2}");
+  }else if (op == '*') {
+    print("${num1 + num2}");
+  }else if (op == '/') {
+    print("${num1 + num2}");
+  }*/
+
+// Switch
+  /*switch (op) {
+    case '+':
+      print("${num1 + num2}");
+     break;
+    case '-':
+      print("${num1 - num2}");
+      break;
+    case '/':
+      print("${num1 ~/ num2}");
+      break;
+    case '*':
+      print("${num1 * num2}");
+      break;
+    default:
+      print('The Operation is Invalid');
+  }*/
+  //////
+// 1- عداد
+// 2- شرط توقف
+// 3- معامل زيادة أو نقصان
+// For LOOP
+/*for(int count =0;count<=100;count++){
+  if((count*5)<=100){
+    if((count*5)==50 || (count*5)==60){
+      continue;
+    }
+    print(count*5);
+  }else{
+    print('ut of Range');
+    break;
+
   }
+
+}*/
+
+  /*for (int i = 0; i <= 20; i++) {
+    if (i % 2 == 0)
+      continue;
+    print(i);
+  }*/
+
+  /*int input = 0;
+  for (int i = 0; input < 20 || input % 2 == 0; i++) {
+    print('Enter Number less Than 20 Or Even Number ');
+    input = int.parse(stdin.readLineSync(encoding: utf8)??'0');
+    print('Your Number Is $input');
+  }*/
+
+  /// while Loop
+  /*int i = 21;
+  while (i <= 20) {
+    i++;
+    if (i == 10)
+      continue;
+    print(i);
+
+  }*/
+  /* int i = 21;
+  do{
+    i++;
+    if (i == 10)
+      continue;
+    print(i);
+  }while(i <= 20);*/
+
+  // طلب إدخال عددين الاول أصغر من الثاني وطباعة جميع الاعداد بين الرقمين
+ /* print('Enter Number 1 ');
+  int num1 = int.parse(stdin.readLineSync(encoding: utf8) ?? '0');
+  print('Enter Number 2 ');
+  int num2 = int.parse(stdin.readLineSync(encoding: utf8) ?? '0');
+
+  if (num1 < num2) {
+    for (int i=num1 ; num1 <= num2;num1++) {
+      print(num1);
+    }
+  } else {
+    print('The numbers is Invalid');
+  }*/
+ // ادخل سنة ميلادك واطبع السنين حتى السنة الحالية
+  // طياعة عمرك بالسنوات
+  // طباعة العمر بالأيام
+//  طباعة العمر بالشهور
 }
 
